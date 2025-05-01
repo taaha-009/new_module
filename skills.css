@@ -1,0 +1,61 @@
+#one, #two, #three, #four, #five, #six{
+    text-align: right;
+  }
+  
+  #hahaha{
+    text-align: right;
+  }
+  
+  nav{
+    background-color: rgb(255, 127, 170);
+  }
+  #offcanvasDarkNavbar{
+    background-color: rgb(231, 196, 255);
+  }
+  
+  #home1, #contact1, #skills1, #projects1, #gallery1, #about1, #nama{
+    color: black;
+  }
+  
+  #about1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #home1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #projects1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #skills1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #gallery1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #contact1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #nama:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+
+body{
+    background-color: #7f6269;
+}
+
+ul{
+    color: #f4e1e0;
+}

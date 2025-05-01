@@ -11,34 +11,53 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
     crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <nav id="navbar-example2" class="navbar px-3 mb-3">
-      <a class="navbar-brand" id="name" href="#">Taaha</a>
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link" id="id1" href="#scrollspyHeading1">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="id2" href="#scrollspyHeading2">My Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="id3" href="#scrollspyHeading3">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="id4" href="#scrollspyHeading4">Acheievments</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="id5" href="#scrollspyHeading5">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="id6" href="#scrollspyHeading4">Contact Me</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <nav class="navbar navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="nama">Taaha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item" id="id1">
+              <a class="nav-link active" aria-current="page" href="index.html" id="home1">Home</a>
+            </li>
+            <li class="nav-item" id="id2">
+              <a class="nav-link" href="#" id="about1">About Me</a>
+            </li>
+            <li class="nav-item" id="id3">
+                <a class="nav-link" href="projects.html" id="projects1">Projects</a>
+              </li>
+              <li class="nav-item" id="id4">
+                <a class="nav-link" href="skills.html" id="skills1">Skills</a>
+              </li>
+              <li class="nav-item" id="id5">
+                <a class="nav-link" href="gallery.html" id="gallery1">Gallery</a>
+              </li>
+              <li class="nav-item" id="id6">
+                <a class="nav-link" href="contact.html" id="contact1">Contact Me</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
   <main>
 
     <div class="container" id="containernumberek">
@@ -46,125 +65,34 @@
 
         <div class="shape shape-1"></div>
         <div class="shape shape-2"></div>
-
+<br><br><br>
         <div class="hero-content">
-          <h1>Hello, I'm <span id="nameee">Taaha</span></h1>
-          <h2>Learning Enthusiast and FrontEnd Web Developer</h2>
+          <h1 id="herozz">Hello, I'm <span id="nameee">Taaha</span></h1>
+          <h2 id="h22">Learning Enthusiast and FrontEnd Web Developer</h2>
 
-          <p>Currently learning frontend web development.</p>
+          <p id="aboutme_1">Creative mind. Curious soul. I bring ideas to life through design, and code. Welcome to my digital
+            playground!</p>
 
-          <div class="cta-buttons">
-            <a href="#contact" class="cta-button">Get In Touch</a>
-            <a href="#work" class="cta-button secondary-button">View My Work</a>
-          </div>
-
-          <div class="social-links">
-            <a href="https://github.com/taaha-009" target="_blank" aria-label="GitHub">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.instagram.com/_.vanilla.muffin._/" target="_blank" aria-label="Instagram">
-              <i class="fab fa-instagram"></i>
-            </a>
+          <div class="conatainer" id="container-view">
+<br><br>
+            <div class="cta-buttons">
+              <a href="#contact" class="cta-button">Get In Touch</a>
+              <a href="projects.html" class="cta-button secondary-button">View My Work</a>
+<br><br><br><br>
+              <div class="social-links">
+                <a href="https://github.com/taaha-009" target="_blank" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
-        <img src="" alt="Profile Image" class="hero-image">
+        <img src="images\Smiley face.jpg" alt="Profile Image" class="hero-image" height="200px" id="meme">
       </section>
     </div>
-    <div class="container" id="containernumberdui">
-      <h3 id="carouselhead">My Gallery</h3>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images\download (1).jpg" class="d-block w-100" alt="duck">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Duck</h5>
-              <p>Here is a photo of a cute duck</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images\download (2).jpg" class="d-block w-100" alt="parrot">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Parrot</h5>
-              <p>Here is a photo of a cute parrot</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images\download.jpg" class="d-block w-100" alt="cat">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Cat</h5>
-              <p>Here is a photo of a very very cute cat</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-
-
-    </div>
-
-
     <br><br><br><br><br>
 
-
-
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <div class="card" style="width: 18 rem;">
-            <img src="images\todolist.jpg" alt="todo-list" height="150px" class="card-img-top"
-              aria-multiline="proj-img-1">
-            <div class="card-body">
-              <h4 class="card-title">A To-Do List</h4>
-              <p class="card-text">A To-Do List Made By Me</p>
-              <a href="#" class="btn btn-primary">The Link</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-4">
-          <div class="card" style="width: 18 rem;">
-            <img src="images\Pink Clock App Icon.jpg" alt="todo-list" height="150px" class="card-img-top"
-              aria-multiline="proj-img-1">
-            <div class="card-body">
-              <h4 class="card-title">A Stop Watch</h4>
-              <p class="card-text">A Stop Watch Made By Me</p>
-              <a href="#" class="btn btn-primary">The Link</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-4">
-          <div class="card" style="width: 18 rem;">
-            <img src="images\Pink Catculator.jpg" alt="calculator" height="150px" class="card-img-top"
-              aria-multiline="proj-img-1">
-            <div class="card-body">
-              <h4 class="card-title">A Simple Calculator</h4>
-              <p class="card-text">A Calculator Made By Me</p>
-              <a href="#" class="btn btn-primary">The Link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </main>
 
 

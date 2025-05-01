@@ -1,10 +1,3 @@
-body{
-    background-image: url(BOWOSOSOSOS.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-
-}
 #one, #two, #three, #four, #five, #six{
     text-align: right;
   }
@@ -58,25 +51,14 @@ body{
     color: blue;
     text-decoration: underline;
   }
-#id1, #id2, #id3, #id4, #id5{
-    color: white;
-    font-size: 15px;
+
+#carouselhead{
+    font-family: Black Ops One;
+    text-decoration: underline;
 }
 
-#name{
-    color: white;
-}
-
-.card:hover{
-    box-shadow: 0px 5px 20px rgb(255, 35, 75);
-}
-
-#containernumberdui{
-    padding: 20px;
-}
-
-.container{
-    padding: 10px;
+#gallerybody{
+    background-color: #7f6269;
 }
 
 footer{
@@ -90,6 +72,7 @@ footer{
     position: fixed;
     left: 0rem;
     bottom: 0rem;
+    text-transform: capitalize;
 }
 
 footer p{
@@ -98,41 +81,10 @@ footer p{
     font-size: small;
 }
 
-#nameee{
-    color: black;
-    font-family: Ranchers;
+#navbar-example2{
+    background-color: #bd8e89;
 }
 
-#herozz{
-    font-family: Black Ops One;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
-      }
-
-#containernumberek{
- padding: 20px 20px;
- margin: 10px 10px;
-}
-
-#container-view{
-    padding: 10px 10px;
-    margin: 10px 10px;
-}
-
-#meme{
-    box-shadow: 0px 5px 20px  rgb(0, 0, 0);
-}
-
-#aboutme_1{
-    font-family: Black Ops One;
-    font-style: italic;
-    color: black;
-    text-align: center;
-}
-
-#h22{
-    font-family: fantasy;
-    color: black;
-    text-align: center;
+#p1{
+    color: #f4e1e0;
 }
